@@ -7,7 +7,7 @@ declare const Liferay: any;
   styleUrls: ['./blog-content-right.component.css']
 })
 export class BlogContentRightComponent implements OnInit {
-  private readonly LIFERAY_API = 'http://192.168.1.32:8080/o/c/blogs/';
+  private readonly LIFERAY_API = 'http://192.168.1.32:8080/o/c/presses/';
   token?: string;
   contentMostView: any[] = [];
   contentFeature: any[] = [];
@@ -37,5 +37,9 @@ export class BlogContentRightComponent implements OnInit {
     });
   }
 
+  goToBlogDetail(blog: any) {
+    const blogId = blog.id;
+    window.location.href = `/web/neoris/press-detail?id=${blogId}`;
+  }
 
 }
