@@ -1,0 +1,83 @@
+<div *ngFor="let blog of contentBlog">
+  <div class="row">
+    <div class="col-12">
+      <div class="containerFirstEventDetail"
+        style="padding-top: 30px; background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{blog.image.link.href}}')">
+        <div class="triangle"></div>
+        <div class="firstEvent">
+          <div class="containerTitleLogoEvent">
+            <h3 class="titleEvent fontColorWhite" style="color:white;">
+              <p>
+                {{blog.titulo}}
+              </p>
+            </h3>
+          </div>
+        </div>
+        <div class="detailMovile">
+          <p style="font-size: 32px;">
+            {{blog.titulo}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background: url(/documents/d/neoris/rotatedwatermark);
+  background: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), url(/documents/d/neoris/rotatedwatermark);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top: 4em;
+  padding-bottom: 64px;
+  z-index: -1;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <div class="row ">
+            <img src="/documents/d/neoris/user_male_portrait"
+              style="width:3rem; border-radius: 50%; margin-right: 11px; float: left;">
+            <span class="by ">By NEORIS</span>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="text-left mt-3">
+              <span class="by2 mt-3">Share</span><br>
+              <ul class="containerSocialMediaDetailEvent">
+                <li>
+                  <a
+                    href="http://www.linkedin.com/shareArticle?&amp;title=NEORIS se une a CEOE como empresa asociada&amp;mini=true&amp;url=http://www.neoris.com:8080/web/guest/-/neoris-se-une-a-ceoe-como-empresa-asociada"><i
+                      class="icon-linkedin"></i></a>
+                </li>
+                <li>
+                  <a
+                    href="http://www.facebook.com/sharer.php?u=http://www.neoris.com:8080/web/guest/-/neoris-se-une-a-ceoe-como-empresa-asociada"><i
+                      class="icon-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/intent/tweet?text=NEORIS se une a CEOE como empresa asociada%20http://www.neoris.com:8080/web/guest/-/neoris-se-une-a-ceoe-como-empresa-asociada"
+                    data-size="large"><i class="icon-twitter"></i></a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:?subject=NEORIS se une a CEOE como empresa asociada&amp;body=Con esta colaboración, el acelerador digital global se compromete con el crecimiento y la innovación del tejido empresarial español"><i
+                      class="icon-envelope-alt"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-6">
+          <small><i class="icon-calendar"></i> {{blog.dateCreated | date:'dd/MM/yyyy'}}</small>
+          <p class="text-justify">
+            {{blog.descripcion}}
+        </div>
+        <div class="col-12 col-md-4 text-left">
+          <app-blog-content-right></app-blog-content-right>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

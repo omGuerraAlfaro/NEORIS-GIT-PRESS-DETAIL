@@ -1,0 +1,388 @@
+.imagePanal {
+    background: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), url(/documents/d/neoris/rotatedwatermark) no-repeat;
+}
+.backgroundWatermarkFirst {
+    background-repeat: no-repeat !important;
+    background-position-y: -103px !important;
+    opacity: 0.5;
+}
+
+
+
+
+.by {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.by2 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.fontColorWhite {
+    color: white;
+}
+
+.imgEvents {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.containerImgEvents {
+    height: 195px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.containerDataEvents {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+
+
+.spacingTopEvent {
+    padding-top: 60px;
+}
+
+
+
+.spacingEvent {
+    padding-bottom: 60px;
+}
+
+
+
+.spacingMarginEvent {
+    margin-bottom: 60px;
+}
+
+
+
+.titleEvent {
+    font-weight: bold;
+}
+
+
+
+.containerDateLocationEvent {
+    padding: 0 0 30px 0;
+}
+
+
+
+.containerDateLocationEvent i {
+    font-weight: bold;
+    top: 1px;
+    position: relative;
+    padding-right: 6px;
+}
+
+
+
+.iconCalendar {
+    font-size: 18px;
+}
+
+
+
+.iconLocation {
+    font-size: 22px;
+}
+
+
+
+.dateEvent {
+    padding-right: 15px;
+}
+
+
+
+.containerIntroEvent {
+    padding-bottom: 10px;
+}
+
+
+
+.containerReadMoreEvent {
+    float: right;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.containerReadMoreEvent a {
+    color: black;
+}
+
+
+
+.fontColorevent {
+    color: black;
+}
+
+
+
+.containerReadMoreEvent a i {
+    color: black;
+    padding-left: 10px;
+}
+
+.containerFirstEventDetail {
+    margin-bottom: 65px;
+    height: 730px;
+    position: relative;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.firstEvent {
+    margin: 160px 0 0 42%;
+    width: 50%;
+    position: absolute;
+}
+
+
+.containerTitleLogoEvent {
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.containerSocialMediaDetailEvent {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.containerSocialMediaDetailEvent li {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.containerSocialMediaDetailEvent li a i {
+    padding-right: 15px;
+}
+
+.titleEvent {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1175px) {
+    .containerSocialMediaDetailEvent li {
+        padding-right: 0px;
+    }
+
+
+
+    .shareMapDetailEvent {
+        padding-right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .containerDocumentsAndSocialMap {
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .firstEvent {
+        display: none;
+    }
+
+
+
+    .detailMovile {
+        display: block;
+        margin: 0px 20px 0px;
+        color: white !important;
+        padding-top: 35px;
+    }
+
+    .detailMovile button a {
+        color: white !important;
+    }
+
+    .detailMovile button {
+        border: solid 3px white !important;
+        background: transparent;
+    }
+
+    .containerFirstEventDetail {
+        height: auto !important;
+        margin-bottom: 25px !important;
+        padding-bottom: 15px;
+    }
+
+    .registerEvent {
+        display: none;
+    }
+
+    #summaryICS {
+        font-size: 24px;
+    }
+
+    .spacingEvent {
+        padding: 0 16px;
+    }
+
+    .descriptionEvemt {
+        padding: 0 !important;
+    }
+
+    .videoMovile {
+        padding: 0 !important;
+    }
+
+    .containerSpeakerDetailEvent {
+        display: none;
+    }
+
+    .subTitle {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .topics {
+        display: none;
+    }
+
+    .borderNormal {
+        margin: 20px 5px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+    .borderAzul {
+        border: 1px solid #0093c9 !important;
+    }
+
+    .subTitleGallery {
+        text-align: center;
+    }
+
+    .containerGalleryEvent {
+        width: 100%;
+    }
+
+    .containerGalleryEvent p {
+        padding: 0 10px;
+    }
+
+    .containerImgGallery {
+        padding: 10px 10px 10px 10px !important;
+    }
+
+    .watermarkGalleryEvent {
+        padding: 20px 0;
+    }
+
+    .relatedEventsMovile {
+        padding: 0 !important;
+    }
+
+    .relatedEventsMovile p {
+        padding: 0px 10px !important;
+    }
+
+    .containerTitleEventRelated {
+        padding-left: 10px;
+    }
+
+    .scheduleInformationMapEvent {
+        padding: 35px 10px;
+    }
+
+    .scheduleInformationMapEvent .subTitle {
+        text-align: left !important;
+    }
+
+    .scheduleInformationMapEvent span {
+        color: black;
+    }
+
+    .mapMovileHidden {
+        display: none;
+    }
+
+    .containerDocumentsAndSocialMap {
+        position: inherit;
+        text-align: center;
+        max-width: 260px;
+        border-top: 0;
+    }
+
+    .imgEvents {
+        height: auto !important;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .detailMovile {
+        display: none;
+    }
+
+    .containerSpeakerDetailEventMovil {
+        display: none;
+    }
+
+    .topicsMovile {
+        display: none;
+    }
+
+    .mapMovileShow {
+        display: none;
+    }
+
+    .imgEvents {
+        height: 190px !important;
+    }
+}
+
+
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .containerQuoteAutor p {
+        color: #3281e1;
+        background: none;
+    }
+}
