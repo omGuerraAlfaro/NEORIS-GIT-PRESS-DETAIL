@@ -32,8 +32,6 @@ export class BlogContentRightComponent implements OnInit {
 
         // Filter out the featured blogs
         this.contentFeature = data.items.filter((blog: any) => blog.destacado.key === 'si');
-
-        console.log(sortedBlogs);
       },
       error: (err) => { console.error(err); }
     });
